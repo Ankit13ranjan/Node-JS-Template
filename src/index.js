@@ -12,8 +12,10 @@ app.get('/home', (req,res) => {
 // /home to get
 
 app.get('/about', (req,res) => {
-    res.send("Welcome to About Us Page of Nodejs.");
+    res.send("Welcome to About Us Page of Nodejs.")
 })
+
+// /about page Access.
 
 
 app.use('/api', apiRoutes);
