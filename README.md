@@ -7,5 +7,4 @@ Steps to Run ->
 2. src-> npx sequelize init
 3. create .env file and write 
                         PORT:<port number>
-4. npx sequelize db:create
-5. npx sequelize db:migrate
+
